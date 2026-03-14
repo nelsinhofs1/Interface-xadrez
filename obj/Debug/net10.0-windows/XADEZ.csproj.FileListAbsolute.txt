@@ -1,0 +1,16 @@
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\bin\Debug\net10.0-windows\XADEZ.exe
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\bin\Debug\net10.0-windows\XADEZ.deps.json
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\bin\Debug\net10.0-windows\XADEZ.runtimeconfig.json
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\bin\Debug\net10.0-windows\XADEZ.dll
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\bin\Debug\net10.0-windows\XADEZ.pdb
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\XADEZ.Form1.resources
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\XADEZ.csproj.GenerateResource.cache
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\XADEZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\XADEZ.AssemblyInfoInputs.cache
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\XADEZ.AssemblyInfo.cs
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\XADEZ.csproj.CoreCompileInputs.cache
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\XADEZ.dll
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\refint\XADEZ.dll
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\XADEZ.pdb
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\XADEZ.genruntimeconfig.cache
+C:\Users\nelsi\OneDrive\Desktop\CODIGOS\AULAS\XADREZ\XADEZ\XADEZ\obj\Debug\net10.0-windows\ref\XADEZ.dll
