@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XADEZ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68d62048a7b1d8c1716b569a725cf53a3c9826b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("XADEZ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XADEZ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

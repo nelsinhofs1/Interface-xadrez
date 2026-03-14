@@ -1,9 +1,10 @@
+using PROJETO_JOGO_DE_XADREZ.tabuleiro;
+using PROJETO_JOGO_DE_XADREZ.xadrez;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using xadrez;
 using tabuleiro;
-
+using xadrez;
 namespace XADEZ
 {
     public partial class Form1 : Form
@@ -23,8 +24,30 @@ namespace XADEZ
             this.Paint += new PaintEventHandler(DesenharTabuleiro);
             this.MouseClick += new MouseEventHandler(ClicarTabuleiro);
         }
+        private string GetSimbolo(Peca peca)
+        {
+            if (peca.cor == Cor.Branca)
+            {
+                if (peca is Rei) return "♔";
+                if (peca is Dama) return "♕";
+                if (peca is Torre) return "♖";
+                if (peca is Bispo) return "♗";
+                if (peca is Cavalo) return "♘";
+                if (peca is Peao) return "♙";
+            }
+            else
+            {
+                if (peca is Rei) return "♚";
+                if (peca is Dama) return "♛";
+                if (peca is Torre) return "♜";
+                if (peca is Bispo) return "♝";
+                if (peca is Cavalo) return "♞";
+                if (peca is Peao) return "♟";
+            }
+            return "?";
+        }
 
-        private void DesenharTabuleiro(object sender, PaintEventArgs e)
+        private void DesenharTabuleiro(object? sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
             Font fonte = new Font("Arial", 22, FontStyle.Bold);
@@ -38,9 +61,9 @@ namespace XADEZ
                     if (posicoesPossiveis != null && posicoesPossiveis[i, j])
                         corCasa = Color.LightGreen;
                     else if ((i + j) % 2 == 0)
-                        corCasa = Color.Wheat;
+                        corCasa = Color.Beige;
                     else
-                        corCasa = Color.SaddleBrown;
+                        corCasa = Color.DarkGreen;
 
                     g.FillRectangle(new SolidBrush(corCasa), j * TAMANHO_CASA, i * TAMANHO_CASA, TAMANHO_CASA, TAMANHO_CASA);
 
@@ -49,8 +72,8 @@ namespace XADEZ
                     if (peca != null)
                     {
                         Color corPeca = peca.cor == Cor.Branca ? Color.White : Color.Black;
-                        g.DrawString(peca.ToString(), fonte, new SolidBrush(corPeca),
-                            j * TAMANHO_CASA + 20, i * TAMANHO_CASA + 18);
+                        g.DrawString(GetSimbolo(peca), fonte, new SolidBrush(Color.Black),
+                            j * TAMANHO_CASA + 10, i * TAMANHO_CASA + 8);
                     }
                 }
             }
@@ -65,7 +88,7 @@ namespace XADEZ
             }
         }
 
-        private void ClicarTabuleiro(object sender, MouseEventArgs e)
+        private void ClicarTabuleiro(object? sender, MouseEventArgs e)
         {
             int col = e.X / TAMANHO_CASA;
             int lin = e.Y / TAMANHO_CASA;
